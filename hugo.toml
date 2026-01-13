@@ -1,0 +1,38 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Tanmay's Blog"
+theme = "PaperMod"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    section = ["HTML"]
+    taxonomy = ["HTML"]
+    term = ["HTML"]
+
+
+
+[menu]
+
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Search"
+        url = "/search/"
+        weight = 2
+
+    [[menu.main]]
+        name = "Series"
+        url = "/series/"
+        weight = 3
+
+    [[menu.main]]
+        name = "About"
+        url = "/posts/about-me/"
+        weight = 4
+
+[taxonomies]
+    tag = "tags"
+    series = "series"
