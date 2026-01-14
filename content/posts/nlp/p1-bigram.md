@@ -1,6 +1,6 @@
 +++
 date = '2026-01-05T14:54:19+05:30'
-draft = true
+draft = false
 title = 'NLP: Part 1 – The Bigram Model'
 series = ['nlp']
 series_order = 1
