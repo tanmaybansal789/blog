@@ -27,3 +27,4 @@ Following these rules, you can produce **any DAG** imaginable.
 ![A topological ordering of a DAG](Topological_Ordering.svg)
 
 ### Application
+
