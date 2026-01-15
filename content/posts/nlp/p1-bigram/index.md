@@ -165,6 +165,7 @@ def get_batch(data, block_size, batch_size):
     return xb, yb
 ```
 
+### Model implementation
 With this, we can implement the actual `BigramModel` as an `nn.Module`:
 ```python
 class BigramModel(nn.Module):
@@ -311,6 +312,7 @@ Se ale Re'Agl
 
 Of course, the output is garbled nonsense, but still - it definitely *resembles English* more than a random string of characters, which is impressive in of itself.
 
+## Visualisation
 In fact, we can even look at all of the weights used by this model - note that this is for my **specific initial random weights and random training samples**, your weights may look different...
 ![Bigram embedding matrix](bigram_weights.png)
 
