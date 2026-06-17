@@ -3,7 +3,7 @@ date = '2026-01-19T13:30:41Z'
 draft = false
 title = 'NLP: Part 2 - The Neural N-Gram Model'
 series = ['nlp']
-series_order = 1
+series_order = 2
 +++
 
 ## Parameter Explosion
